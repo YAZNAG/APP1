@@ -1,0 +1,83 @@
+/* contact.css */
+
+/* Styling for the main contact page container */
+.contact-page {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for the h1 element */
+.contact-page h1 {
+  font-size: 32px; /* Larger font size */
+  color: #007BFF; /* Attractive color */
+}
+
+/* Styling for the introductory paragraph */
+.contact-page p {
+  font-size: 18px; /* Slightly larger font size */
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Styling for the contact info section */
+.contact-info {
+  margin-top: 20px;
+}
+
+/* Styling for each contact information item */
+.contact-info p {
+  margin: 20px 0; /* Wider margin */
+}
+
+/* Styling for icons */
+.contact-info a {
+  text-decoration: none;
+  color: #007BFF; /* Attractive color */
+  font-size: 24px; /* Larger icon size */
+  display: block; /* Each icon on a new line */
+}
+
+/* Styling for the contact form section */
+.contact-form {
+  margin-top: 20px;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin: 20px 0; /* Wider margin */
+}
+
+/* Styling for labels */
+.form-group label {
+  display: block;
+  font-size: 18px; /* Larger font size */
+  color: #007BFF; /* Attractive color */
+}
+
+/* Styling for input and textarea elements */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px; /* Slightly larger font size */
+  border: 2px solid #007BFF; /* Attractive border color */
+  border-radius: 4px;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333;
+}
+
+/* Styling for the "Envoyer" button */
+.contact-form button {
+  background-color: #007BFF; /* Attractive color */
+  color: #fff;
+  padding: 15px 30px; /* Larger button size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Larger font size */
+}
+
+/* Styling for the "Envoyer" button on hover */
+.contact-form button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

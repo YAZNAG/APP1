@@ -1,0 +1,96 @@
+/* ProductItem.css */
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+ 
+
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-info h4:last-child {
+  font-size: 20px;
+  color: #007BFF;
+  margin: 10px 0;
+}
+
+.favorite-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #777;
+  transition: color 0.2s;
+  margin: 10px;
+}
+
+.favorite-btn.favorited {
+  color: #ff0000;
+}
+
+.add-cart-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.add-cart-btn:hover {
+  background-color: #0056b3;
+}
+
+.product-details-link {
+  text-decoration: none;
+}
+
+.view-detail-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.view-detail-btn:hover {
+  background-color: #0056b3;
+}
+
+.favorite-btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.ri-heart-fill{
+  color: red;
+}

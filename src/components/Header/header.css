@@ -1,0 +1,71 @@
+/* header.css */
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Styling for the navigation items */
+  .nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the navigation items */
+  .nav-items li {
+    margin-right: 20px;
+  }
+  
+  /* Styling for the navigation links */
+  .nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the navigation icons */
+  .nav-icons {
+    display: flex;
+  }
+  
+  /* Styling for the icon and item count */
+  .nav-icons li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  /* Styling for the icon itself */
+  .nav-icons i {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  /* Styling for the item count badge */
+  .item-count {
+    /* background-color: #FF5733; */
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
